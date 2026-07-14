@@ -19,3 +19,5 @@ Each release (`v1`, `v2`, …) carries one or more per-state assets:
 
 - `<state>.pmtiles` — vector basemap tiles (z0–15)
 - `<state>-contours.pmtiles` — elevation contour lines (optional)
+- `<state>.pack` — OSM routing graph for the app's snap-to-trail router (migrated
+  off Apple On-Demand Resources so the ~2.3 GB stays out of the app archive)
